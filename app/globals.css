@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.background{
+    background-image: url("https://usindh.edu.pk/resource/images/dept/dept_about_image1685522016.jpg");
+    background-size: 100% 100%;
+    background-position: fixed;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.hover:hover #hoverable{
+    height: 100%;
+    cursor: pointer;
+}
